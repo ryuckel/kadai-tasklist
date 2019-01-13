@@ -49,7 +49,7 @@ end
 
   # Strong Parameter
   def set_task
-    @task = Task.findfind(params[:id])
+    @task = Task.find(params[:id])
   end
   
   def task_params
